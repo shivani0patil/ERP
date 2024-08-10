@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-19T16:12:12 IST" name="Suite" finished-at="2024-06-19T16:12:26 IST" duration-ms="13509">
+  <suite started-at="2024-08-09T14:58:58 IST" name="Default suite" finished-at="2024-08-09T15:02:26 IST" duration-ms="208169">
     <groups>
     </groups>
-    <test started-at="2024-06-19T16:12:12 IST" name="Test" finished-at="2024-06-19T16:12:26 IST" duration-ms="13509">
-      <class name="erp.thirdparty.SalesListTest">
-        <test-method is-config="true" signature="config()[pri:0, instance:erp.thirdparty.SalesListTest@4c60d6e9]" started-at="2024-06-19T16:12:12 IST" name="config" finished-at="2024-06-19T16:12:12 IST" duration-ms="24" status="PASS">
+    <test started-at="2024-08-09T14:58:58 IST" name="Default test" finished-at="2024-08-09T15:02:26 IST" duration-ms="208169">
+      <class name="erp.thirdparty.CustomerListTest">
+        <test-method is-config="true" signature="config()[pri:0, instance:erp.thirdparty.CustomerListTest@17f9d882]" started-at="2024-08-09T14:58:58 IST" name="config" finished-at="2024-08-09T14:58:58 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method is-config="true" signature="confiBC()[pri:0, instance:erp.thirdparty.SalesListTest@4c60d6e9]" started-at="2024-06-19T16:12:12 IST" name="confiBC" finished-at="2024-06-19T16:12:18 IST" duration-ms="5999" status="PASS">
+        <test-method is-config="true" signature="confiBC()[pri:0, instance:erp.thirdparty.CustomerListTest@17f9d882]" started-at="2024-08-09T14:58:58 IST" name="confiBC" finished-at="2024-08-09T15:02:17 IST" duration-ms="198921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confiBC -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:erp.thirdparty.SalesListTest@4c60d6e9]" started-at="2024-06-19T16:12:18 IST" name="configBm" finished-at="2024-06-19T16:12:22 IST" duration-ms="3374" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:erp.thirdparty.CustomerListTest@17f9d882]" started-at="2024-08-09T15:02:17 IST" name="configBm" finished-at="2024-08-09T15:02:22 IST" duration-ms="4996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="viewNotActiveList()[pri:0, instance:erp.thirdparty.SalesListTest@4c60d6e9]" started-at="2024-06-19T16:12:22 IST" name="viewNotActiveList" finished-at="2024-06-19T16:12:25 IST" duration-ms="2783" status="PASS">
+        <test-method signature="viewCustomerList()[pri:0, instance:erp.thirdparty.CustomerListTest@17f9d882]" started-at="2024-08-09T15:02:22 IST" name="viewCustomerList" finished-at="2024-08-09T15:02:25 IST" duration-ms="2803" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- viewNotActiveList -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:erp.thirdparty.SalesListTest@4c60d6e9]" started-at="2024-06-19T16:12:25 IST" name="configAm" finished-at="2024-06-19T16:12:26 IST" duration-ms="1032" status="PASS">
+        </test-method> <!-- viewCustomerList -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:erp.thirdparty.CustomerListTest@17f9d882]" started-at="2024-08-09T15:02:25 IST" name="configAm" finished-at="2024-08-09T15:02:26 IST" duration-ms="939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:erp.thirdparty.SalesListTest@4c60d6e9]" started-at="2024-06-19T16:12:26 IST" name="configAC" finished-at="2024-06-19T16:12:26 IST" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:erp.thirdparty.CustomerListTest@17f9d882]" started-at="2024-08-09T15:02:26 IST" name="configAC" finished-at="2024-08-09T15:02:26 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:erp.thirdparty.SalesListTest@4c60d6e9]" started-at="2024-06-19T16:12:26 IST" name="configAS" finished-at="2024-06-19T16:12:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:erp.thirdparty.CustomerListTest@17f9d882]" started-at="2024-08-09T15:02:26 IST" name="configAS" finished-at="2024-08-09T15:02:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- erp.thirdparty.SalesListTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- erp.thirdparty.CustomerListTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
